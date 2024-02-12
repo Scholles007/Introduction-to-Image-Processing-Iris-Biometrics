@@ -1,15 +1,3 @@
-### Abrir os arquivos da APRESENTAÇÃO e do RELATÓRIO, no diretório "Dados relatórios e apresentação", para o entendimento do trabalho feito.
+# Introduction to Image Processing - Iris Biometrics
 
-```sh
-PARTICIPANTES:
-
-1. Bruno Scholles Soares Dias (17/0161668)
-brunoscholles@outlook.com
-
-2. Ian Porto e Mello (17/0050424)
-ianporto25@gmail.com
-
-3. Carlos Eduardo Taborda Lottermann (18/0041509)
-cadutaborda@gmail.com 
-
-```
+In this work of the Introduction to Image Processing discipline, a program dedicated to biometric identification through iris analysis was developed. Utilizing the Daugman method for precise segmentation of the iris and pupil in the image, the Discrete Cosine Transform (DCT) was employed for detail extraction and a Notch Butterworth filter to enhance quality. The Hamming function was adopted for iris comparison. Implemented in MATLAB, the algorithms were divided into stages, including segmentation, feature extraction, and comparison. The strategy of creating a triangular table to optimize processing time is highlighted. The results revealed a notable success rate, achieving nearly 90% accuracy in tests conducted with 50 images of 13 distinct eyes.
